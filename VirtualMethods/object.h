@@ -13,7 +13,9 @@ protected:
 public:
 	object();
 	unsigned int getID();
-	static unsigned int GetTotal();
+	static unsigned int getTotal();
+
+	virtual void showParameters() = 0;
 };
 #endif //конец директивы препроцесора
 
