@@ -18,4 +18,3 @@ public:
 	virtual void showParameters() = 0;
 };
 #endif //конец директивы препроцесора
-

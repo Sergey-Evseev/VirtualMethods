@@ -84,6 +84,4 @@ istream & operator>>(istream &is, point &p)
 void point::showParameters() {
 	cout << "Point parameters " << *this << endl;
 }
-
-
 	
